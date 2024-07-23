@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'wotfard';
+    src: url('fonts/wotfard-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100vh;
+    font-family: "wotfard", serif;
+}
+
+.sidebar {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: start;
+    width: 200px;
+    background-color: #1992D3;
+    color: white;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.bottom-padding {
+    padding-bottom: 30px;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
