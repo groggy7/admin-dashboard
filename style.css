@@ -13,17 +13,16 @@ body {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     height: 100vh;
     font-family: "wotfard", serif;
 }
 
 .sidebar {
-    padding: 20px;
+    padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
     align-content: start;
-    width: 200px;
     background-color: #1992D3;
     color: white;
 }
@@ -48,3 +47,95 @@ body {
     gap: 10px;
 }
 
+.header {
+    display: grid;
+    height: 100px;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+    padding: 0 40px;
+}
+
+.headerupper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 29fr;
+    align-items: center;
+    justify-content: start;
+}
+
+.form i {
+    justify-self: start;
+}
+
+.search {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #E2E8F0;
+    width: 90%;
+    font-size: 1.2rem;
+    justify-self: start;
+}
+
+.user-info {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.headerlower {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.welcome img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.welcome p {
+    padding: 0;
+    margin: 0;
+}
+
+.greeting {
+    font-size: 12px;
+}
+
+.welcome .name {
+    font-size: 1.1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.buttons button {
+    border: none;
+    background-color: #1992D3;
+    color: white;
+    border-radius: 15px;
+    width: 70px;
+    padding: 5px 0;
+}
